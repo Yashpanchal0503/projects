@@ -1,4 +1,5 @@
 .Weather{
+    
     padding: 3.5rem;
     border-radius: 0.75rem;
     background-image: linear-gradient(45deg, #2f4680,#500ae5);
@@ -8,14 +9,14 @@
 
     background: rgba(255, 255, 255, 0.2); 
   
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 1.875rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);          /* for blur */
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .search-bar{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
 .search-bar input{
     height: 4rem;
@@ -64,7 +65,13 @@ weather-data .col span{
     font-size: 1rem;
 }
 weather-data .col img{
-    margin-top: 10px;
-    width: 26px;
+    margin-top: 0.625rem;
+    width: 1.625rem;
 
+}
+
+@media (max-width:460px) {
+  .Weather{
+  padding:3.5rem 0.45rem;
+  }
 }
