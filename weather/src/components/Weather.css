@@ -75,3 +75,8 @@ weather-data .col img{
   padding:3.5rem 0.45rem;
   }
 }
+@media (max-width:360px) {
+  .Weather{
+  padding:3.5rem 0rem;
+  }
+}
